@@ -1,0 +1,9 @@
+{application,database,
+             [{applications,[kernel,stdlib,elixir,logger,runtime_tools,
+                             postgrex,ecto]},
+              {description,"database"},
+              {modules,['Elixir.Database','Elixir.Database.Application',
+                        'Elixir.Database.DataCase','Elixir.Database.Repo']},
+              {registered,[]},
+              {vsn,"0.0.1"},
+              {mod,{'Elixir.Database.Application',[]}}]}.
